@@ -1,0 +1,246 @@
+@font-face {
+  font-family: Intro;
+  src: local("Intro-Regular");
+  src: url("../fonts/intro-regular.woff2") format("woff2");
+  src: url("../fonts/intro-regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Roboto Slab;
+  src: local("RobotoSlab-light");
+  src: url("../fonts/RobotoSlab-Light.woff") format("woff");
+  font-style: normal;
+  font-weight: 300;
+}
+
+.margin-zero {
+  margin: 0;
+}
+
+.ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.a {
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.body {
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  padding-bottom: 30px;
+}
+
+.main-first {
+  background-image: url(../img/background.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: contain;
+  height: 100%;
+}
+
+.main {
+  padding-left: 126px;
+  width: calc(100% - 126px);
+  padding-top: 60px;
+}
+
+.header {
+  width: 100%;
+}
+
+.header-first {
+  background-image: url(../img/browser.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 90px 40px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.header-par {
+  text-align: center;
+  text-align: center;
+font-family: Helvetica, sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 100%;
+}
+
+.header-second {
+  padding: 50px 75px 0;
+  justify-content: space-between;
+}
+
+.header-logo {
+  width: 201px;
+height: 40px;
+}
+
+.header-btn {
+  background-image: url(../img/basket.svg);
+  background-repeat: no-repeat;
+  background-position: right 14px bottom 60%;
+  border-radius: 100px;
+  border: 0;
+  background-color: #5222D0;
+  width: 115px;
+  height: 38px;
+  color: #FFF;
+font-family: Intro, sans-serif;
+font-size: 13px;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+padding-right: 19px;
+}
+
+.title {
+  font-family: Intro, sans-serif; ;
+font-size: 60px;
+font-weight: 400;
+line-height: 120%;
+width: 40vw;
+margin-bottom: 10px;
+text-transform: uppercase;
+}
+
+.par {
+font-family: Roboto Slab;
+font-size: 20px;
+font-weight: 300;
+line-height: 160%;
+width: 40vw;
+margin-bottom: 30px;
+}
+
+.main-btn {
+  background-image: url(../img/card.svg);
+  background-repeat: no-repeat;
+  background-position: right 32px bottom 50%;
+  border-radius: 100px;
+  border: 0;
+  background-color: #5222D0;
+  width: 270px;
+  height: 84px;
+  color: #FFF;
+font-family: Intro, sans-serif;
+font-size: 35px;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+padding-right: 60px;
+margin-bottom: 50px;
+}
+
+.nav {
+  justify-content: space-between;
+  max-width: 535px;
+  width: 100%;
+}
+
+.nav-link {
+  color: #5222D0;
+font-family: Roboto Slab, sans-serif;
+font-size: 20px;
+font-weight: 300;
+line-height: 160%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 440px);
+  grid-template-rows: 550px 220px;
+  margin-bottom: 70px;
+}
+
+.grid-ctn {
+  padding: 20px;
+  border: 1px solid #BB2247;
+}
+
+.grid-ctn:last-child {
+  background-color: #EC615B;
+}
+
+.grid-image {
+  background-repeat: no-repeat;
+  background-position: top 25px center;
+  background-size: 400px;
+  padding-top: 330px;
+}
+
+.gi-first {
+  background-image: url(../img/Illustration-1.svg);
+}
+
+.gi-second {
+  background-image: url(../img/Illustration-2.svg);
+}
+
+.gi-third {
+  background-image: url(../img/Illustration-3.svg);
+}
+
+.grid-image .grid-title {
+  max-width: 400px;
+  width: 100%;
+}
+
+.grid-image .grid-par {
+  max-width: 400px;
+  width: 100%;
+}
+
+.grid-title {
+font-family: Intro, sans-serif;
+font-size: 30px;
+font-weight: 400;
+line-height: 120%;
+margin-bottom: 10px;
+}
+
+.grid-title-last {
+  color: #FFF;
+  font-family: Intro, sans-serif;
+font-size: 30px;
+font-weight: 400;
+line-height: 120%;
+margin-bottom: 6px;
+}
+
+.grid-par {
+  font-family: Roboto Slab, sans-serif;
+font-size: 20px;
+font-weight: 300;
+line-height: 160%;
+}
+
+.input {
+  max-width: 323px;
+  width: 100%;
+  padding: 9px 14px;
+  margin-bottom: 23px;
+}
+
+.form-btn {
+  width: 135px;
+height: 38px;
+border: 0;
+border-radius: 100px;
+background-color: #5222D0;
+color: #fff;
+font-family: Intro, sans-serif;
+font-size: 13px;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
